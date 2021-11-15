@@ -1,0 +1,54 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container1 {
+    display: flex;
+    background-color: lightblue;
+    max-width: 230px;
+    max-height: 600px;
+    margin-top: 200px;
+    flex-direction: column;
+}
+
+#display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 2px solid black;
+    height: 50px;
+    width: 210px;
+    margin: 5px;
+}
+
+#digitsAndOps {
+    display: flex;
+}
+
+#digits {
+    max-width: 150px;
+    margin: 4px;
+}
+
+#operators {
+    display: flex;
+    margin: 2px;
+    gap: 4px;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.buttons {
+    background-color: lightslategrey;
+    height: 40px;
+    width: 40px;
+}
+
+.button {
+    height: 25px;
+}
+
+
